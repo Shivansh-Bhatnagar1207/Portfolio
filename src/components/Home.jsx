@@ -50,9 +50,12 @@ export default function Home() {
           Student at SRMS CET&R Bareilly, Year-2 Good Grasp in Python and C
           language graduating with the course of CSE in year 2025 <br />
           <div className="flex gap-2 items-center">
-            <button className="bg-accent text-white p-2 my-3 rounded-lg hover:bg-sec">
+            <a
+              href="#About"
+              className="bg-accent text-white p-2 my-3 rounded-lg hover:bg-sec"
+            >
               About Me
-            </button>
+            </a>
             <a
               href="https://www.linkedin.com/in/shivansh-bhatnagar/"
               className="linkedin"
