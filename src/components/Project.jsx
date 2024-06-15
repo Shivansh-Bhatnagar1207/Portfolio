@@ -1,11 +1,11 @@
 import Pc from "../components/Pc";
 export default function Project() {
   return (
-    <div className="bg-pri" id="Projects">
-      <div className="text-3xl text-accent font-body font-bold text-center">
+    <div className="bg-pri " id="Projects">
+      <div className="text-3xl text-accent font-body font-bold text-center pt-10">
         Projects
       </div>
-      <div className="w-[80%] py-10 mx-auto grid grid-cols-3 gap-5 ">
+      <div className="flex flex-wrap  justify-center md:w-[80%]  py-10 md:mx-auto xl:grid grid-cols-3 gap-5 ">
         <Pc
           title="Event Management Website"
           content="This Project was Developed using MERN stack, including technologies - MongoDB, ExpressJs ReactJs and NodeJS.This Project allowed to create an Admin user who can register the participants in any events happening. It also help organizers to get the information of the participants quickly."

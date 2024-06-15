@@ -37,17 +37,17 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="mt-[10vh] bg-pri h-[90vh]  text-xl flex justify-between"
+      className="md:mt-[10vh] bg-pri text-xl flex flex-col md:flex-row md:justify-around py-10"
     >
-      <div className="p-24 text-3xl font-body w-1/2  ">
+      <div className="p-10 mt-[10vh] md:mt-0 md:p-24 text-3xl font-body md:w-1/2  ">
         Hi 🖐, I am <br />
         Shivansh Bhatnagar, <br />I am a <br />{" "}
-        <span className="text-accent font-body font-bold">
+        <div className="text-accent font-body font-bold h-[50px] my-3">
           {text}
           <Cursor />
-        </span>
+        </div>
         <p className="text-xl text-justify pt-3 ">
-          Student at SRMS CET&R Bareilly, Year-2 Good Grasp in Python and C
+          Student at SRMS CET&R Bareilly, Year-3 Good Grasp in Python and C
           language graduating with the course of CSE in year 2025 <br />
           <div className="flex gap-2 items-center">
             <a
@@ -69,7 +69,7 @@ export default function Home() {
         </p>
       </div>
       <div>
-        <img src={hey} alt="Hello" className="h-[500px] w-[500px] " />
+        <img src={hey} alt="Hello" className="h-[500px] w-[500px]   " />
       </div>
     </div>
   );

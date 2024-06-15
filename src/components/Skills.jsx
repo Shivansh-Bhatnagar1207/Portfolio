@@ -6,24 +6,25 @@ export default function Skills() {
       <div className="text-3xl text-center font-body font-bold text-accent">
         Skills
       </div>
-      <p className="w-[80%] m-auto text-justify my-5">
+      <p className="w-[80%] m-auto text-xl text-justify my-5">
         During my studies, I dedicated myself to mastering a diverse array of
         languages, frameworks, and skills that have equipped me with a robust
         foundation in software development. I delved into several programming
         languages including Python, Java, and JavaScript, each offering unique
         strengths in different domains of application. In tandem with these
         languages, I became proficient in frameworks such as Django and Spring
-        Boot, empowering me to develop scalable web applications efficiently.
+        Boot, empowering me to develop scalable web applications efficiently.{" "}
+        <br />
         Additionally, my coursework extended into database management with MySQL
         and MongoDB, honing my ability to design and optimize data storage
         solutions. Beyond technical competencies, I cultivated soft skills like
         effective communication, collaboration, and problem-solving, essential
-        for thriving in dynamic team environments. Through hands-on projects and
-        coursework, I've not only gained technical expertise but also learned
-        the importance of continuous learning and adaptation in the
-        ever-evolving field of technology.
+        for thriving in dynamic team environments. <br />
+        Through hands-on projects and coursework, I've not only gained technical
+        expertise but also learned the importance of continuous learning and
+        adaptation in the ever-evolving field of technology.
       </p>
-      <div className=" grid grid-cols-5 w-[80%] m-auto gap-5 mt-10 p-10">
+      <div className=" flex flex-wrap gap-3 justify-center md:grid md:grid-cols-5 w-screen md:gap-5 mt-10 md:mx-auto md:w-[80%] ">
         <Cards
           title="HTML"
           img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"

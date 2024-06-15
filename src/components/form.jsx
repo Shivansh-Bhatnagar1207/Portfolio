@@ -12,7 +12,7 @@ export default function Form() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="grid border-2 border-black p-2 rounded-md w-[500px]"
+      className="grid border-2 border-black p-2 rounded-md md:w-1/2"
     >
       <label htmlFor="email" className="text-xl p-2">
         Email Address
