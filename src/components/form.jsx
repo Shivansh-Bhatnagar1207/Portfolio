@@ -1,7 +1,8 @@
+require('dotenv').config()
+
 import { useForm, ValidationError } from "@formspree/react";
-import api from "../../../API";
 export default function Form() {
-  const [state, handleSubmit] = useForm(api);
+  const [state, handleSubmit] = useForm(process.env.API);
   if (state.succeeded) {
     return (
       <p className="text-3xl font-bold font-body text-accent">
