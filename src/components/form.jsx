@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 import { useForm, ValidationError } from "@formspree/react";
 export default function Form() {
   const [state, handleSubmit] = useForm(process.env.API);
